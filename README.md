@@ -15,7 +15,7 @@ This script requires three input files:
    - Replicate ID #1 (as appears in PED file)
    - Replicate ID #2 (as appears in PED file)
   
-See *example_IDs.txt* for an example of this input file.
+See [*example_IDs.txt*](example_IDs.txt) for an example of this input file.
 
 ### Overview
 This script has several steps:
