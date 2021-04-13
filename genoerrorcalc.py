@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #This script automatically generates genotyping error a series of replicate samples within a single input file. 
-#Call this script using "python auto_genoerror.py input_ped input_ids output_filename"
+#Call this script using "python genoerrorcalc.py input_ped input_ids output_filename"
 
 import sys
 import re
