@@ -1,0 +1,5 @@
+#Gentoyping error for example.ped
+SampleID	#SNPs	Matches	Mismatches	Missing	ErrorRate
+Sample_1	831	818	13	169	1.5643802647412757
+Sample_2	830	819	11	170	1.3253012048192772
+Sample_3	603	589	14	397	2.321724709784411
