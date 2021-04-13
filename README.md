@@ -29,16 +29,16 @@ This script has several steps:
 ### Outputs
 There are two output file types created with this script.
 
-The main output file is specified with the *output_filename**. This file is a tab-delimited file containing six columns:
-- **SampleID:** the sample ID given in the first column of the *input_IDs* file\
-- **#SNPs:** total number of loci with data present in both replicate samples\
-- **Matches:** number of loci with concordant genotypes\
-- **Mismatches:** number of loci with discordant genotypes\
-- **Missing:** number of loci with missing data in at least on replicate (not used in calculation)\
+The main output file is specified with the *output_filename*. This file is a tab-delimited file containing six columns (see [example_output.txt](example_files/example_output.txt) for an example):
+- **SampleID:** the sample ID given in the first column of the *input_IDs* file
+- **#SNPs:** total number of loci with data present in both replicate samples
+- **Matches:** number of loci with concordant genotypes
+- **Mismatches:** number of loci with discordant genotypes
+- **Missing:** number of loci with missing data in at least on replicate (not used in calculation)
 - **ErrorRate:** genotyping error rate (%) between replicates, calculated *Matches/#SNPs*
 
-The second output file type will provide specific information for each set of replicate samples. One file per pair of replicates will be created. This file consists of:
-- Line from the PED file for each replicate sample (containings all information
+The second output file type will provide specific information for each set of replicate samples. One file per pair of replicates will be created (see [Sample_1.txt](example_files/Sample_1.txt) for an example). This file consists of:
+- Line from the PED file for each replicate sample (contains all information found in the PED file)
 - Summary of mismatched SNPs with three columns:
   - Locus ID (from MAP file)
   - Genotype for the first replicate sample
