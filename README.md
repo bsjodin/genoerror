@@ -1,9 +1,9 @@
-# auto_genoerror.py
+# GenoErrorCalc
 ### Description
 Python3 script for calculating genotyping error among replicate samples in [PLINK](https://www.cog-genomics.org/plink/) format calculated as the percentage of discordant genotypes.
 
 ### Usage
-```$ ./auto_genoerror.py input_PED input_IDs output_filename```
+```$ ./genoerrorcalc.py input_PED input_IDs output_filename```
 
 ### Requirements
 This script requires three input files:
